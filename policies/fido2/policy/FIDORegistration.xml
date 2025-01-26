@@ -9,7 +9,7 @@
   PublicPolicyUri="http://yourtenant.onmicrosoft.com/B2C_1A_fido_registration">
 
   <BasePolicy>
-    <TenantId>yourtenant.onmicrosoft.com</TenantId>
+    <TenantId>mdlidentity.onmicrosoft.com</TenantId>
     <PolicyId>B2C_1A_FIDOExtensions</PolicyId>
   </BasePolicy>
 
