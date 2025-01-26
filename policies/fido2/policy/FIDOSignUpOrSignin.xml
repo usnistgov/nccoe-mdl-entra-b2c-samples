@@ -18,7 +18,7 @@
       
         <OrchestrationStep Order="1" Type="CombinedSignInAndSignUp" ContentDefinitionReferenceId="api.signuporsignin">
           <ClaimsProviderSelections>
-            <ClaimsProviderSelection TargetClaimsExchangeId="FacebookExchange"/>
+            <!-- <ClaimsProviderSelection TargetClaimsExchangeId="FacebookExchange"/> -->
             <ClaimsProviderSelection TargetClaimsExchangeId="FidoExchange"/>
             <ClaimsProviderSelection ValidationClaimsExchangeId="LocalAccountSigninEmailExchange"/>
           </ClaimsProviderSelections>
@@ -36,7 +36,7 @@
             </Precondition>
           </Preconditions>
           <ClaimsExchanges>
-            <ClaimsExchange Id="FacebookExchange" TechnicalProfileReferenceId="Facebook-OAUTH"/>
+            <!-- <ClaimsExchange Id="FacebookExchange" TechnicalProfileReferenceId="Facebook-OAUTH"/> -->
 
             <!--Sample: Get FIDO challenge. This technical profile also set the identity provider name 
                         that is used in the next orchestration steps--> 
